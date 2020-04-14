@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculator</title>
+</head>
+<body>
+	<form method = "post" action = "CalculatorServlet">
+		<fieldset>
+			<img src = "enter.png" width="126" height="21" alt="Please Enter a Number:"/>
+			<input type = "text" name = "in1" />
+		</fieldset>
+		
+	    <fieldset>
+		    <legend>Select Operation</legend>
+		    <input type="radio" name="operation" value="summation"> 
+		     	<img src = "sum.png" width="25" height="25" alt="+"/>
+		  	<input type="radio" name="operation" value="subtraction">
+				<img src = "subtract.png" width="25" height="25" alt="-"/>
+		  	<input type="radio" name="operation" value="multiplication">
+				<img src = "multiply.png" width="25" height="25" alt="*"/>
+		  	<input type="radio" name="operation" value="division">
+				<img src = "division.png" width="25" height="25" alt="%"/>
+	   </fieldset>
+	  
+	   <fieldset>
+			<img src = "enter.png" width="126" height="21" alt="Please Enter Another Number:"/>
+			<input type = "text" name = "in2" />
+	   </fieldset>
+	  
+	   <input type ="submit" value="Calculate"/>
+	</form>
+
+
+</body>
+</html>
